@@ -161,12 +161,22 @@ ul li a:hover{
     color: #ffffff;
 }
 
+.hire__me, .a{
+    color: #ffffff;
+}
+
 .hire__me:hover{
-    background-color: var(--primary-color-dark);
+    background-color: var(--extra-light);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .porfolio{
     background-color: var(--primary-color);
+}
+
+.portfolio, .a{
+    color: black;
 }
 
 .portfolio:hover{
@@ -224,4 +234,29 @@ ul li a:hover{
         margin: auto;
     }
 }
+
+#about{
+    background-color: var(--extra-light);
+}
+
+.text-container{
+    text-align: center;
+}
+
+.section-container{
+    min-height: 100vh;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    gap: 4rem;
+}
+
+.about-pic{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    border-color: #a855f7;
+}
+
+
 
