@@ -23,7 +23,7 @@ a{
 
 body{
     font-family: 'poppins' 'sans-serif';
-    background-color: var(--primary-color);
+    background-color: var(--extra-light);
 }
 
 
@@ -244,18 +244,55 @@ ul li a:hover{
 }
 
 .section-container{
-    min-height: 100vh;
-    max-width: var(--max-width);
-    margin: auto;
+    width: 80%;
+    display: flex;
+    margin:0 auto;
     padding: 1rem;
     gap: 4rem;
 }
 
+.top-section{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.card{ 
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     padding: 20px;
+     width: 45%;
+     text-align: center;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+     margin-left: 20px;
+}
+
+.icon{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bottom-section{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .about-pic{
-    height: 400px;
-    width: 400px;
-    border-radius: 10px;
-    border-color: #a855f7;
+    margin-right: 20px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.description1{
+    flex: 1;
+}
+
+.text-container_1{
+    display: grid;
+   
+    
 }
 
 
