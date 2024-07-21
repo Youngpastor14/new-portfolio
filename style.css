@@ -249,7 +249,7 @@ ul li a:hover{
     margin:0 auto;
     padding: 1rem;
     gap: 4rem;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .top-section{
@@ -265,6 +265,7 @@ ul li a:hover{
      width: 16rem;
      height: 9rem;
      text-align: center;
+     margin-top: 25px;
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
      margin-left: 20px;
      display: flex;
